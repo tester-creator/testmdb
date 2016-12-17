@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MY APP</title>
+</head>
+<body>
+
+  <ul class="mIYs">
+    <% for (var i=0;i<mIYs.length;i++) {%>
+      <li class="mIYs">
+        <span><%= mIYs[i].movieName %></span>
+        <span><%= mIYs[i].YId %></span>
+      </li>
+  <%  }%>
+  </ul>
+
+
+<form action="/movieInfo" method="post">
+  <input  type="text" name="movieName" placeholder="movie name">
+  <input  type="text" name="YId" placeholder="youtubelink">
+  <button  type="submit">Submit</button>
+</form>
+
+</body>
+
+</html>

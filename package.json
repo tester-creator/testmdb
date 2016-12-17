@@ -1,0 +1,21 @@
+{
+  "name": "crudtest",
+  "version": "0.0.0",
+  "description": "crudtestapp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "dinesh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "imdb-api": "^2.2.0",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
